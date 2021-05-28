@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_min_2">
+
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/phone_no"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:inputType="number" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ccp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/phone_no_1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_no"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:inputType="number" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ccp1"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+       />
+
+    <EditText
+        android:id="@+id/phone_no_2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_no_1"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:inputType="number" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ccp2"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/phone_no_3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_no_2"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:inputType="number" />
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ccp3"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/phone_no_4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_no_3"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="94dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:text="ADD" />
+
+</RelativeLayout>
